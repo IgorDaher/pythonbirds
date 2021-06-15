@@ -9,7 +9,7 @@ class Pessoa:
 if __name__ == '__main__':
     gabriel=Pessoa(nome='Gabriel')
     igor = Pessoa(gabriel, nome='Igor')
-    print(Pessoa.cumprimentar(igor))
+    #print(Pessoa.cumprimentar(igor))
     print(igor.nome)
     print(igor.idade)
     for filho in igor.filhos:
